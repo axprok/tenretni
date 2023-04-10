@@ -1,11 +1,21 @@
 
 
+
+html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+/* This is a code for Gainsboro color.  See below. */
 body {
-  background-color: light grey;
+  background-color: #DCDCDC;
 }
+
 h2 {
-  color: blue;
+  color: black;
 }
+
 p {
   color: black;
 }
