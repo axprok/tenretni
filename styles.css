@@ -18,9 +18,9 @@ h2 {
 
 /* This div element has a height of 200px and a width of 50%. */
 div {
-  height: 200px;
-  width: 50%;
-  background-color: powderblue;
+  height: 300px;
+  width: 75%;
+  background-color: silver;
 }
 
 p {
