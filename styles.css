@@ -13,10 +13,10 @@ body {
 }
 
 h2 {
-  color: black;
+  color: dimgray;
 }
 
-/* This div element has a height of 200px and a width of 50%. */
+/* This div element has a height of 300px and a width of 75%. */
 div {
   height: 300px;
   width: 75%;
