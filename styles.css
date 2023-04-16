@@ -12,17 +12,78 @@ body {
   background-color: #DCDCDC;
 }
 
+/* What Is Relative Positioning? */
+/*When you set the position relative to an element, */
+/* without adding any other positioning attributes */
+/* (top, bottom, right, left) nothing will happen. */
+/* When you add an additional position apart */
+/* from relative, such as left: 20px */
+/* the element will move 20px to the right from */
+/* its normal position. Here, you can see that */
+/* this element is relative to itself. */
+/* When the element moves, */
+/* no other element on the layout will be affected. */
+
 h2 {
   color: gray;
+
+  position: relative;
+  left: 200px;
+  top: 20px;
+
+  width: 500px;
+  background-color: #fafafa;
+  border: solid 3px #ff7347;
+  font-size: 24px;
+  text-align: center;
+
 }
 
-/* This div element has a height of 300px and a width of 75%. */
-div {
+/* This div class="moi" element has a height of 200px and a width of 75%. */
+.moi {
+
+  position: relative;
+  left: 200px;
+  top: 20px;
+
   height: 200px;
   width: 75%;
   background-color: silver;
 }
 
 p {
+
+  position: relative;
+  left: 200px;
+  top: 20px;
+  
   color: black;
+}
+
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
 }
