@@ -28,7 +28,7 @@ h2 {
   color: gray;
 
   position: relative;
-  left: 200px;
+  left: 160px;
   top: 20px;
 
   width: 500px;
@@ -55,6 +55,15 @@ so that it does not overlap with the sidebar. */
 }
 
 p {
+
+  position: relative;
+  left: 160px;
+  top: 20px;
+
+  color: black;
+}
+
+ul {
 
   position: relative;
   left: 160px;
