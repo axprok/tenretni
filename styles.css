@@ -40,10 +40,13 @@ h2 {
 }
 
 /* This div class="moi" element has a height of 200px and a width of 75%. */
+/* This div class="moi" element is 160px left off the parent element
+so that it does not overlap with the sidebar. */
+
 .moi {
 
   position: relative;
-  left: 200px;
+  left: 160px;
   top: 20px;
 
   height: 200px;
@@ -54,9 +57,9 @@ h2 {
 p {
 
   position: relative;
-  left: 200px;
+  left: 160px;
   top: 20px;
-  
+
   color: black;
 }
 
