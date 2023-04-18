@@ -50,7 +50,10 @@ so that it does not overlap with the sidebar. */
   top: 20px;
 
   height: 200px;
+  width: 300px;
+  padding: 25px;
   width: 75%;
+
   background-color: silver;
 }
 
