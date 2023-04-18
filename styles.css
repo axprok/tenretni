@@ -8,9 +8,11 @@ html {
       }
 
 /* This is a code for Gainsboro color.  See below. */
+
 body {
+  padding: 25px;
   background-color: #DCDCDC;
-}
+  }
 
 /* What Is Relative Positioning? */
 /*When you set the position relative to an element, */
