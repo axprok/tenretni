@@ -62,7 +62,7 @@ so that it does not overlap with the sidebar. */
 p {
 
   position: relative;  /* relative means relative the parent element */
-  padding: 10px;
+  padding: 5px;
   left: 160px;
   top: 20px;
   
@@ -73,7 +73,7 @@ p {
 ul {
 
   position: relative;
-  padding: 20px;
+  padding: 5px;
   left: 160px;
   top: 20px;
   
