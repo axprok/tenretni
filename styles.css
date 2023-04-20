@@ -28,7 +28,7 @@ body {
 
 h2 {
   color: gray;
-
+  padding: 25px;
   position: relative;
   left: 160px;
   top: 20px;
@@ -62,8 +62,10 @@ so that it does not overlap with the sidebar. */
 p {
 
   position: relative;
+  padding: 10px;
   left: 160px;
   top: 20px;
+  
 
   color: black;
 }
@@ -71,12 +73,19 @@ p {
 ul {
 
   position: relative;
+  padding: 20px;
   left: 160px;
   top: 20px;
+  
 
   color: black;
 }
 
+li {
+  position: relative;
+  padding: 5px;
+
+}
 
 /* The sidebar menu */
 .sidenav {
