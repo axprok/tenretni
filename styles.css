@@ -81,6 +81,17 @@ ul {
   color: black;
 }
 
+ol {
+
+  position: relative;
+  padding: 5px;
+  left: 160px;
+  top: 20px;
+  
+
+  color: black;
+}
+
 li {
   position: relative;
   padding: 5px;
