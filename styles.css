@@ -76,7 +76,7 @@ so that it does not overlap with the sidebar. */
   top: 20px;
 
   height: 100px;
-  width: 300px;
+  /* width: 300px; */
   padding: 25px;
   width: 50%;
 
