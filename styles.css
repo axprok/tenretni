@@ -65,6 +65,16 @@ img {
 
 }
 
+
+figcaption {
+
+  padding: 25px;
+  position: relative;
+  left: 160px;
+  top: 20px;
+
+}
+
 /* This div class="moi" element has a height of 200px and a width of 75%. */
 /* This div class="moi" element is 160px left off the parent element
 so that it does not overlap with the sidebar. */
