@@ -85,9 +85,9 @@ so that it does not overlap with the sidebar. */
   left: 160px;
   top: 20px;
 
-  height: 100px;
+  height: 150px;
   /* width: 300px; */
-  padding: 25px;
+  padding: 15px;
   width: 50%;
 
   background-color: silver;
