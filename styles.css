@@ -2,16 +2,16 @@
 /* The main page  */
 
 html {
-        margin: 200;
-        padding: 0;
+        margin: 100;
+        padding: 20;
         height: 100%;
       }
 
 /* This is code for Gainsboro color for body element.  See below. */
 
 body {
-  padding: 25px;
-  background-color: #DCDCDC;   /* #DCDCDC */
+  padding: 20px;
+  background-color: #e5e4e2;   /* #DCDCDC */
   }
 
 /* What Is Relative Positioning? */
