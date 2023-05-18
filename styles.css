@@ -30,7 +30,7 @@ h2 {
   color: gray;
   padding: 25px;
   position: relative;
-  left: 160px;
+  left: 170px;
   top: 20px;
 
   width: 500px;
@@ -44,7 +44,7 @@ h2 {
 
 iframe {
   position: relative;
-  left: 160px;
+  left: 170px;
   top: 20px;
 
 
@@ -54,7 +54,7 @@ img {
   
   padding: 25px;
   position: relative;
-  left: 160px;
+  left: 170px;
   top: 20px;
 
   /* width: 500px; */
@@ -70,7 +70,7 @@ figcaption {
 
   padding: 25px;
   position: relative;
-  left: 160px;
+  left: 170px;
   top: 20px;
 
 }
@@ -82,7 +82,7 @@ so that it does not overlap with the sidebar. */
 .moi {
 
   position: relative;
-  left: 160px;
+  left: 170px;
   top: 20px;
 
   height: 150px;
@@ -97,7 +97,7 @@ p {
 
   position: relative;  /* relative means relative the parent element */
   padding: 5px;
-  left: 160px;
+  left: 170px;
   top: 20px;
   
 
@@ -108,7 +108,7 @@ ul {
 
   position: relative;
   padding: 5px;
-  left: 160px;
+  left: 170px;
   top: 20px;
   
 
