@@ -1,6 +1,14 @@
 
 /* The main page  */
 
+
+/* color palette 
+pale gold #f9e79f
+sunlit apricot #fad7a0
+amber gold #fdebd0
+pastel honey #fff9e6
+*/
+
 html {
         margin: 100;
         padding: 20;
@@ -11,7 +19,7 @@ html {
 
 body {
   padding: 20px;
-  background-color: #FDEBD0; /* gray color: #e5e4e2 */   /* #DCDCDC */
+  background-color: #fff9e6; /* gray color: #e5e4e2 */   /* #DCDCDC */
   }
 
 /* What Is Relative Positioning? */
@@ -34,7 +42,7 @@ h2 {
   top: 20px;
 
   width: 500px;
-  background-color: #e1e1e1;
+  background-color: #fff9e6; /* #e1e1e1 light gray */
   border: solid 3px #808080;
   font-size: 24px;
   text-align: center;
@@ -58,7 +66,7 @@ img {
   top: 20px;
 
   /* width: 500px; */
-  background-color: #FDEBD0;  /* #e1e1e1; */
+  background-color: #e1e1e1;  /* #e1e1e1; */
   border: solid 0px #808080;
   font-size: 24px;
   text-align: center;
@@ -90,7 +98,7 @@ so that it does not overlap with the sidebar. */
   padding: 15px;
   width: 50%;
 
-  background-color: #FDEBD0;
+  background-color: #e1e1e1;
 }
 
 p {
