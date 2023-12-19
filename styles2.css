@@ -1,40 +1,25 @@
 /* The main page  */
 
 
-/* color palette 
-pale gold #f9e79f
-sunlit apricot #fad7a0
-amber gold #fdebd0
-pastel honey #fff9e6
 
-other palettes: https://blog.hubspot.com/marketing/color-palette-inspiration#generator
-*/
-
-html {
-        margin: 100;
-        padding: 20;
-        height: 100%;
-      }
 
 /*  */
 
-/*   body {
-  padding: 50px;
-  background-color: #fdebd0; /* gray color: #e5e4e2 */   /* #DCDCDC */
+
+body {
+  background-color: lightblue;
+}
+
   } 
-  */
+
 
 h2 {
-  color: gray;
-  padding: 25px;
-  position: relative;
-  left: 170px;
-  top: 20px;
-
-  width: 500px;
-  background-color: #fdebd0; /* #e1e1e1 light gray */
-  border: solid 3px #808080;
-  font-size: 24px;
+  color: white;
   text-align: center;
+}
 
+
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
