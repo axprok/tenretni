@@ -123,6 +123,7 @@ p {
   color: black;
 }
 
+/* Careful! Moving the <a> tag can mess the lines */
 /*a {
 
 /*  position: relative;*/  /* relative means relative the parent element */
