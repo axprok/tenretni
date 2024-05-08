@@ -123,14 +123,14 @@ p {
   color: black;
 }
 
-a {
+/*a {
 
-  position: relative;  /* relative means relative the parent element */
-  padding: 10px;
-  left: 170px;
-  top: 20px;
+/*  position: relative;*/  /* relative means relative the parent element */
+/*  padding: 10px; */
+/*  left: 170px;*/
+/*  top: 20px; */
 
-}
+/*}*/
 
 ul {
 
