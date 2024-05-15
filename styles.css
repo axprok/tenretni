@@ -66,10 +66,10 @@ iframe {
 
 img {
   
-  padding: 25px;
+  padding: 10px;
   position: relative;
-  left: 170px;
-  top: 20px;
+  left: 10px;
+  top: 10px;
 
   /* width: 500px; */
   background-color: #fdebd0;  /* #e1e1e1; */
