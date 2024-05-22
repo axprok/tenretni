@@ -53,7 +53,15 @@ h2 {
 
 table, th, td {
   border:1px solid black;
+  text-align: center; 
+  image-align: center;
+
+  /* By using gradients we can get closer to a shine effect. */
+  background-image: linear-gradient(to right, #AE8625, #F7EF8A);
+
 }
+
+
 
 
 iframe {
@@ -133,16 +141,7 @@ p {
 
 /*}*/
 
-td {
-  text-align: center; 
-  image-align: center;
-}
 
-
-th {
-  text-align: center;
-  image-align: center; 
-}
 
 
 
