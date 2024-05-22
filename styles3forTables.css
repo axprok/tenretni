@@ -56,6 +56,7 @@ table, th, td {
   text-align: center; 
   image-align: center;
 
+  background-color: #F7EF8A; /* for background not supporting gradients */
   /* By using gradients we can get closer to a shine effect. */
   background-image: linear-gradient(to right, #AE8625, #F7EF8A);
 
