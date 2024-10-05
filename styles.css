@@ -114,6 +114,8 @@ p {
   padding: 10px;
   left: 170px;
   top: 20px;
+  width: 600px;         /* hard coding the width of paragraphs
+                        /* vary this number to get what you need
 
 
   /*height: 200px;
