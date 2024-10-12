@@ -53,12 +53,13 @@ h2 {
 
 table, th, td {
   border: 1px solid black;
+  padding-left: 170px;
   /* padding: 1px; 
-  left: 170px;
+  padding-left: 170px;
   top: 20px; */
-  width: 600px;         /* hard coding the width of paragraphs
-                        /* vary this number to get what you need
-                        */
+  width: 600px;         /* hard coding the width of paragraphs*/
+                        /*vary this number to get what you need*/
+                        
 }
 
 
