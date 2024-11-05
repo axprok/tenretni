@@ -118,19 +118,12 @@ so that it does not overlap with the sidebar. */
 }
 
 p {
-
-  position: relative;   /* relative means relative the parent element.  */
+  position: relative;    /*relative means relative the parent element.  */
                         /* The parent element should be the body, i guess. */
   padding: 10px;
   left: 170px;
   top: 20px;
-  width: 500px;         /* hard coding the width of paragraphs
-                        /* vary this number to get what you need
-
-
-  /*height: 200px;
-  width: 500px; */
-  
+  width: 500px;       
   background-color: #fad7a0;
   color: black;
 }
@@ -143,7 +136,7 @@ p {
 /*  left: 170px;*/
 /*  top: 20px; */
 
-/*}*/
+
 
 ul {
 
