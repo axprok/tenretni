@@ -5,6 +5,33 @@
         
 
         <link rel="stylesheet" type="text/css" href="../../../styles.css">
+
+
+<!-- 
+More css for specific Toggle Box
+
+Toggle Box with Button Text in Javascript.
+The button starts with "Open Box", and after clicking, 
+it changes to "Close Box" — 
+and toggles back and forth as you click it.
+    -->
+  
+  <style>
+    #toggleBox {
+      display: none;
+      padding: 20px;
+      margin-top: 10px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    #toggleButton {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
         
     </head>
 
@@ -19,8 +46,24 @@
     <figcaption>Fig.1. The Cambridge Five. </i> 
     </figcaption>   
 
-    <ul>
-        <li>Donald MacLean (code name Homer)</li>
+    <ul>Their code and real names
+        <li>Code name Homer (
+            <button id="toggleButton">real name</button>
+            <div id="toggleBox">Donald MacLean</div>
+  )
+
+  <script>
+    const button = document.getElementById('toggleButton');
+    const box = document.getElementById('toggleBox');
+
+    button.addEventListener('click', () => {
+      const isBoxVisible = box.style.display === 'block';
+      box.style.display = isBoxVisible ? 'none' : 'block';
+      button.textContent = isBoxVisible ? 'Open Box' : 'Close Box';
+    });
+  </script>
+  </li>
+
         <li>Guy Burgess (code name Hicks)</li>
         <li>Kim Philby (code names Sonny and Stanley)</li>
         <li>Anthony Blunt (code name Johnson)</li>
@@ -38,6 +81,14 @@
     and 
     <i>A Question of Attribution</i> in 1991.
     </p>
+
+
+
+
+
+
+ 
+
 
 
     </body>
