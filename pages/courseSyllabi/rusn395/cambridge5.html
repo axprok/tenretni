@@ -17,16 +17,16 @@ and toggles back and forth as you click it.
     -->
   
   <style>
-    #toggleBox {
+    #toggleBox,#toggleBox2 {
       display: none;
       padding: 20px;
       margin-top: 10px;
-      background-color: #f0f0f0;
+      background-color: #fdebd0;
       border: 1px solid #ccc;
       border-radius: 8px;
     }
 
-    #toggleButton {
+    #toggleButton, #toggleButton2 {
       padding: 10px 20px;
       font-size: 16px;
       cursor: pointer;
@@ -51,7 +51,7 @@ and toggles back and forth as you click it.
             <button id="toggleButton">real name</button>
             <div id="toggleBox">Donald MacLean</div>
 
-  <script>
+            <script>
     const button = document.getElementById('toggleButton');
     const box = document.getElementById('toggleBox');
 
@@ -61,9 +61,27 @@ and toggles back and forth as you click it.
       button.textContent = isBoxVisible ? 'Open Box' : 'Close Box';
     });
   </script>
-  </li>
 
-        <li>Guy Burgess (code name Hicks)</li>
+        </li>
+
+        <li>Code name Hicks
+            <button id="toggleButton2">real name</button>
+            <div id="toggleBox2">Guy Burgess</div>
+
+  
+
+            <script>
+    const button2 = document.getElementById('toggleButton2');
+    const box2 = document.getElementById('toggleBox2');
+
+    button2.addEventListener('click', () => {
+      const isBoxVisible = box2.style.display === 'block';
+      box2.style.display = isBoxVisible ? 'none' : 'block';
+      button2.textContent = isBoxVisible ? 'Open Box' : 'Close Box';
+    });
+  </script>
+         </li>
+
         <li>Kim Philby (code names Sonny and Stanley)</li>
         <li>Anthony Blunt (code name Johnson)</li>
         <li>John Cairncross (code name Liszt)</li>
