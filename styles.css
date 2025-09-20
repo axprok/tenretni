@@ -57,6 +57,7 @@ table, th, td {
   padding: 1px; 
   padding-left: 170px;
   top: 20px; */
+  text-align: center;
   width: 600px;         /* hard coding the width of paragraphs*/
                         /*vary this number to get what you need*/
                         
@@ -67,15 +68,13 @@ iframe {
   position: relative;
   left: 170px;
   top: 20px;
-
-
 }
 
 img {
   
   padding: 20px;
   position: relative;
-  left: 100px;
+  left: 20px;
   top: 0px;
 
 
