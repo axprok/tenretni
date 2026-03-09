@@ -90,10 +90,11 @@ img {
 
 figcaption {
 
-  padding: 15px;
+  padding: 10px;
   position: relative;
   left: 20px;
   top: 20px;
+  bottom: 20px;
   width: 600px;         /* hard coding the width of paragraphs
                         /* vary this number to get what you need*/
 
