@@ -1,0 +1,39 @@
+@media all and (min-width: 1px)and (max-width: 800px) {
+    .body_block { width: 100%; }
+    .body_block_map { display: none; }
+    .body_block_header_slogan { display: none; }
+    #logo_block { padding: 1rem; }
+    .padding_2rem { padding: 1rem; }
+    .body_block_content_scroll { padding: 0rem 1rem 0rem 1rem; }
+    .body_block_menu { left: 1rem; }
+    .body_block_content_panel {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .news_item_div { padding: 1rem; }
+    .ymaps-2-1-79-map, .ymaps-2-1-79-inner-panes { border-radius: 1rem; }
+
+    .dark_overlay { display: block; }
+    .mob_only { display: block; }
+
+    .body_block_map_search_mob { display: block; }
+    .body_block_map_search_input { width: 100px; }
+    .body_block_map_search_button { width: 60px; }
+    .body_block_map_slogan { display: none; }
+    .body_block_page_header { font-size: 75%; }
+
+    .location_movie_list_item { width: 48%; margin-right: 0; }
+    .gall_item { width: 100%; margin-right: 0; margin-bottom: 20px; }
+
+    .org_header { height: 70px; }
+    .org_header_block { padding: 0rem 1rem 1rem 1rem; }
+}
+
+
+@media all and (min-width: 801px) {
+    .body_block_main_mob_locations { display: none; }
+}
